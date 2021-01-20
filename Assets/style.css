@@ -16,22 +16,25 @@ body {
 
 .jumbotron {
     background-color: #74D3C1;
-    margin-top: 13%;
-    /* box-shadow: 0.1px 0.5px 14px #030303;   */
+    margin-top: 11%;
 }
 
 .jumbotron h1 {
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .jumbotron p {
     font-size: 1.6rem;
 }
 
+.jumbotron .contact {
+    font-size: 1rem;
+}
+
 .jumbotron a {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
     background-color: #A52AA9;
     border: 0px;
     box-shadow: 2px 5px 13px #030303;  
@@ -60,6 +63,26 @@ button {
 
 .btn-outline-primary a {
     color: #74D3C1;
+    text-decoration: none;
+}
+
+.btn-outline-primary:hover {
+    background-color: #1a3a34;
+    border-color: #74D3C1;
+}
+
+.btn-outline-secondary {
+    border-color:#A52AA9;
+}
+
+.btn-outline-secondary a {
+    color: #A52AA9;
+    text-decoration: none;
+}
+
+.btn-outline-secondary:hover {
+    background-color:#350d36;
+    border-color:#A52AA9;
 }
 
 .btn-secondary {
@@ -106,4 +129,10 @@ button {
 .btn-success:hover {
     background-color:#52bda9;
     border-color:#52bda9;
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbotron h1 {
+        font-size: 3rem;
+    }
 }
