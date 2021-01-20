@@ -1,8 +1,8 @@
 # portfolio
 Template for my development portfolio
 
-Deployed:
-https://lnewmanheggie.github.io/portfolio/
+Deployed (hosted with AWS):
+http://lydianewmanheggie.com/
 
 Repo:
 https://github.com/lnewmanheggie/portfolio
