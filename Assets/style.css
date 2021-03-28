@@ -47,6 +47,7 @@ body {
 .myCol1 {
     background-color: black;
     color: white;
+    height: 100vh;
 }
 
 .myCol1 h2 {
@@ -129,6 +130,44 @@ button {
 .btn-success:hover {
     background-color:#52bda9;
     border-color:#52bda9;
+}
+
+/* ABOUT PAGE */
+
+.card {
+    box-shadow: 2px 5px 13px #838383; 
+}
+
+.about {
+    width: 80%;
+}
+
+.about img {
+    max-width: 30%;
+    margin-right: 2rem;
+    float: left;
+}
+
+.aboutCard {
+    line-height: 1.8rem;
+}
+
+@media only screen and (max-width: 766px) {
+    .myCol1 {
+        background-color: black;
+        color: white;
+        height: auto;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .about img {
+        max-width: 100%;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
