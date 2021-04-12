@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <!-- Bootstrap links -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-<!-- My CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <!-- My CSS -->
     <link rel="stylesheet" href="./Assets/style.css">
-<!-- Google fonts -->
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&display=swap" rel="stylesheet">
 </head>
@@ -22,7 +28,7 @@
             <h2>Lydia Newman</h2>
             <button type="button" class="btn btn-outline-primary">
                 <a href="index.html">Home</a>
-            </button> 
+            </button>
             <br>
             <button type="button" class="btn btn-secondary">
                 Portfolio
@@ -34,7 +40,7 @@
             <br>
             <button type="button" class="btn btn-outline-secondary">
                 <a href="./Assets/Resume.pdf" download>Resume</a>
-            </button> 
+            </button>
         </aside>
 
         <main class="col-md-9 myCol2">
@@ -48,14 +54,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 myCol3">
+                        
                         <div class="card">
                             <img src="./Assets/busiMan.png" class="card-img-top" alt="busi-man">
                             <div class="card-body">
-                              <h5 class="card-title">Busi-Man: The small business manager app</h5>
-                              <p class="card-text">MERN application for business managers to add and view employees and inventory. 
-                                  Includes an integrated phone barcode scanner, and machine learning API from TensorFlow</p>
-                              <a href="https://busi-man.herokuapp.com/" target="_blank" class="btn btn-secondary">View App</a>
-                              <a href="https://github.com/lnewmanheggie/Busi-Man" target="_blank" class="btn btn-success">View Source</a>
+                                <h5 class="card-title">Busi-Man: The small business manager app</h5>
+                                <p class="card-text">MERN application for business managers to add and view employees
+                                    and inventory.
+                                    Includes an integrated phone barcode scanner, and machine learning API from
+                                    TensorFlow</p>
+                                <p><em>Note: App takes does take a little while to load!</em></p>
+                                <p>To login:<br> email: michaelscott@company.com<br>password: dwight</p>
+                                <a href="https://busi-man.herokuapp.com/" target="_blank" class="btn btn-secondary">View
+                                    App</a>
+                                <a href="https://github.com/lnewmanheggie/Busi-Man" target="_blank"
+                                    class="btn btn-success">View Source</a>
                             </div>
                         </div>
                     </div>
@@ -63,10 +76,15 @@
                         <div class="card">
                             <img src="./Assets/crime.gif" class="card-img-top" alt="crime tracker">
                             <div class="card-body">
-                              <h5 class="card-title">Crime tracker app</h5>
-                              <p class="card-text">Full-stack application for users to view crime data and enter their own data about crimes.</p>
-                              <a href="https://infinite-savannah-89804.herokuapp.com/" target="_blank" class="btn btn-secondary">View App</a>
-                              <a href="https://github.com/mesgt/charmeleon" target="_blank" class="btn btn-success">View Source</a>
+                                <h5 class="card-title">Crime tracker app</h5>
+                                <p class="card-text">Full-stack application for users to view crime data and enter their
+                                    own data about crimes. Utilizes Google maps API to render geoJSON data for an
+                                    interactive user experience.</p>
+                                <p><em>Note: App takes does take a little while to load!</em></p>
+                                <a href="https://infinite-savannah-89804.herokuapp.com/" target="_blank"
+                                    class="btn btn-secondary">View App</a>
+                                <a href="https://github.com/mesgt/charmeleon" target="_blank"
+                                    class="btn btn-success">View Source</a>
                             </div>
                         </div>
                     </div>
@@ -77,10 +95,13 @@
                         <div class="card">
                             <img src="./Assets/torchic.gif" class="card-img-top" alt="music finder">
                             <div class="card-body">
-                              <h5 class="card-title">Torchic: A music event finder</h5>
-                              <p class="card-text">An app to help users find music events based on search criteria or current location, and save them for future viewing.</p>
-                              <a href="https://lnewmanheggie.github.io/musicEventFinder/" target="_blank" class="btn btn-secondary">View App</a>
-                              <a href="https://github.com/lnewmanheggie/musicEventFinder" target="_blank" class="btn btn-success">View Source</a>
+                                <h5 class="card-title">Torchic: A music event finder</h5>
+                                <p class="card-text">An app to help users find music events based on search criteria or
+                                    current location, and save them for future viewing.</p>
+                                <a href="https://lnewmanheggie.github.io/musicEventFinder/" target="_blank"
+                                    class="btn btn-secondary">View App</a>
+                                <a href="https://github.com/lnewmanheggie/musicEventFinder" target="_blank"
+                                    class="btn btn-success">View Source</a>
                             </div>
                         </div>
                     </div>
@@ -88,10 +109,13 @@
                         <div class="card">
                             <img src="./Assets/bugTracker.png" class="card-img-top" alt="bug Tracker">
                             <div class="card-body">
-                              <h5 class="card-title">Bug tracker</h5>
-                              <p class="card-text">Full-stack application which allows users to track code bugs in their project teams.</p>
-                              <a href="https://thawing-dawn-74525.herokuapp.com/" target="_blank" class="btn btn-secondary">View App</a>
-                              <a href="https://github.com/lnewmanheggie/bug-tracker" target="_blank" class="btn btn-success">View Source</a>
+                                <h5 class="card-title">Bug tracker</h5>
+                                <p class="card-text">Full-stack application which allows users to track code bugs in
+                                    their project teams.</p>
+                                <a href="https://thawing-dawn-74525.herokuapp.com/" target="_blank"
+                                    class="btn btn-secondary">View App</a>
+                                <a href="https://github.com/lnewmanheggie/bug-tracker" target="_blank"
+                                    class="btn btn-success">View Source</a>
                             </div>
                         </div>
                     </div>
@@ -102,10 +126,13 @@
                         <div class="card">
                             <img src="./Assets/Quiz.gif" class="card-img-top" alt="quiz app">
                             <div class="card-body">
-                              <h5 class="card-title">Quiz App</h5>
-                              <p class="card-text">A quiz with dynamically generated questions from Open Trivia Database API. </p>
-                              <a href="https://lnewmanheggie.github.io/randomQuiz/" target="_blank" class="btn btn-secondary">View App</a>
-                              <a href="https://github.com/lnewmanheggie/randomQuiz" target="_blank" class="btn btn-success">View Source</a>
+                                <h5 class="card-title">Quiz App</h5>
+                                <p class="card-text">A quiz with dynamically generated questions from Open Trivia
+                                    Database API. </p>
+                                <a href="https://lnewmanheggie.github.io/randomQuiz/" target="_blank"
+                                    class="btn btn-secondary">View App</a>
+                                <a href="https://github.com/lnewmanheggie/randomQuiz" target="_blank"
+                                    class="btn btn-success">View Source</a>
                             </div>
                         </div>
                     </div>
@@ -113,17 +140,20 @@
                         <div class="card">
                             <img src="./Assets/weather.gif" class="card-img-top" alt="weather dashboard">
                             <div class="card-body">
-                              <h5 class="card-title">Weather Dashboard</h5>
-                              <p class="card-text">Web app to display the current weather and forecast for a city.</p>
-                              <a href="https://lnewmanheggie.github.io/weatherDashboard/" target="_blank" class="btn btn-secondary">View App</a>
-                              <a href="https://github.com/lnewmanheggie/weatherDashboard" target="_blank" class="btn btn-success">View Source</a>
+                                <h5 class="card-title">Weather Dashboard</h5>
+                                <p class="card-text">Web app to display the current weather and forecast for a city.</p>
+                                <a href="https://lnewmanheggie.github.io/weatherDashboard/" target="_blank"
+                                    class="btn btn-secondary">View App</a>
+                                <a href="https://github.com/lnewmanheggie/weatherDashboard" target="_blank"
+                                    class="btn btn-success">View Source</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </main>
+    </div>
+    </main>
     </div>
 </body>
+
 </html>
