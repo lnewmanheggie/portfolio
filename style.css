@@ -157,6 +157,10 @@ body {
 
 /* Portfolio section */
 
+.portfolio {
+    height: auto;
+}
+
 .portfolio-title {
     text-align: center;
     margin-top: 4rem;
@@ -166,6 +170,25 @@ hr {
     width: 70%;
 }
 
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px 80px; 
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+.item-red {
+    background-color: var(--red);
+}
+
+.item-yellow {
+    background-color: var(--yellow);
+}
+
+.item-green {
+    background-color: var(--green);
+}
 
 @media only screen and (max-width: 1040px) {
     .home-titles h1 {
