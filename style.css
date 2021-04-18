@@ -71,7 +71,8 @@ body {
 }
 
 /* Menu  rectangles and links */
-.menus a {
+.menus a,
+.menus-phone a {
     text-decoration: none;
     color: black;
 }
@@ -137,7 +138,8 @@ body {
     }
 }
 
-@media only screen and (max-width: 682px) {
+/* Change display */
+@media only screen and (max-width: 690px) {
     .home-titles h1 {
         font-size: 1.7rem;
     }
@@ -152,21 +154,28 @@ body {
         margin-bottom: 1rem;
         font-size: 1.4rem;
     }
-}
-
-@media only screen and (max-width: 682px) {
 
     .home-container-1 {
         display: none;
     }
 
     .home-phone-container {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 
     .home-title-phone {
         font-size: 1.7rem;
+    }
+
+    .menu-red {
+        margin-left: 1.4rem;
+    }
+
+    .menu-green {
+        margin-left: 1.1rem;
     }
 }
 
