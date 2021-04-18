@@ -70,7 +70,7 @@ body {
     font-size: 1.5rem;
 }
 
-/* Menu  rectangles and links */
+/* Home Menu  rectangles and links */
 .menus a,
 .menus-phone a {
     text-decoration: none;
@@ -107,6 +107,54 @@ body {
     display: none;
 }
 
+/* About section */
+
+.about {
+    height: 70vh;
+    background-color: var(--green);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    grid-template-rows: auto;
+}
+
+.col-one {
+    height: 70vh;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.col-one h1 {
+    margin: 0.5rem 2rem;
+}
+
+.col-one p {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.col-one a {
+    color: var(--red);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.col-two {
+    display: flex;
+    align-items: center;
+}
+
+.col-two img {
+    width: 50%;
+}
+
+
+
 @media only screen and (max-width: 1040px) {
     .home-titles h1 {
         font-size: 2.3rem;
@@ -135,6 +183,14 @@ body {
     .menu-green {
         width: 4.2rem;
         background: var(--green);
+    }
+
+    .col-one h1 {
+        font-size: 1.4rem;
+    }
+
+    .col-one p {
+        font-size: 0.8rem;
     }
 }
 
@@ -177,6 +233,30 @@ body {
     .menu-green {
         margin-left: 1.1rem;
     }
+
+    /* About section */
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-two {
+        display: none;
+    }
+
+    .col-one {
+        height: 100vh;
+        text-align: center;
+        background: var(--green);
+    }
+    
+    .col-one p {
+        margin-left: 1rem;
+        margin-left: 1rem;
+    }
+
+
 }
 
 @media only screen and (max-width: 350px) {
